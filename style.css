@@ -901,6 +901,9 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 600px) {
+    .math-body {
+        padding: 15px;
+    }
     .math-data-table {
         font-size: 12px;
     }
