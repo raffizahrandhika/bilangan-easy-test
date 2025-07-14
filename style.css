@@ -820,6 +820,7 @@ body {
     border-left: 4px solid #2196F3;
     border-radius: 4px;
     font-size: 14px;
+    line-height: 1.5;
     color: #333;
     font-family: 'Nunito', sans-serif;
 }
