@@ -900,7 +900,7 @@ body {
 }
 
 /* Responsive Styles */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .math-body {
         padding: 15px;
     }
@@ -981,9 +981,57 @@ body {
         font-size: 13px;
         padding: 6px;
     }
+    
+    /* Mobile-specific styles */
+    .math-question-nav-container {
+        display: none;
+    }
+    
+    .math-question-nav-container.show {
+        display: block;
+    }
+    
+    .math-question-nav-toggle {
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {
+    /* Desktop-specific styles */
+    .math-quiz-container-wrapper {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    
+    .math-question-nav-container {
+        flex: 0 0 30%;
+        position: sticky;
+        top: 20px;
+        display: block !important;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    
+    .math-quiz-elements {
+        flex: 0 0 68%;
+    }
+    
+    .math-question-nav {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+    
+    .math-question-nav button {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .math-question-nav-toggle {
+        display: none;
+    }
+    
+    /* Adjust navigation buttons for desktop */
     .math-navigation {
         flex-direction: row;
         justify-content: space-between;
