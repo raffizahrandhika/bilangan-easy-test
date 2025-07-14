@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
 .math-body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
