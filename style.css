@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 .math-body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #f5f5f5;
     color: #000 !important;
 }
