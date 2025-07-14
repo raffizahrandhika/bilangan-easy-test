@@ -13,8 +13,8 @@ body {
 
 .math-container-quiz {
     max-width: 100%;
-    margin: 0 auto;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: white;
     position: relative;
     font-family: 'Nunito', sans-serif;
@@ -903,7 +903,7 @@ body {
 /* Responsive Styles */
 @media (max-width: 600px) {
     .math-body {
-        padding: 15px;
+        padding: 0;
     }
     .math-data-table {
         font-size: 12px;
