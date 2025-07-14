@@ -13,7 +13,6 @@
     background-color: white;
     position: relative;
     font-family: 'Nunito', sans-serif;
-    overflow-x: hidden; /* Tambahan nih coba aja */
 }
 
 .math-h2, .math-h3, .math-p, .math-div, .math-span, .math-button {
