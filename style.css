@@ -7,7 +7,7 @@
 }
 
 .math-container-quiz {
-    max-width: 100%;
+    max-width: 80%; /* 100 */
     margin: 0;
     padding: 0;
     background-color: white;
@@ -937,6 +937,9 @@
 
 /* Responsive Styles */
 @media (max-width: 600px) {
+    .math-container-quiz {
+        max-width: 100%;
+    }
     .math-header {
         margin: -15px -15px 15px -15px; /* Di mobile, margin diperkecil */
         padding: 20px 15px; /* Padding juga disesuaikan */
