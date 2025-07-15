@@ -895,8 +895,42 @@
     border-radius: 0 8px 0 0;
 }
 
+/* === HEADER === */
+.math-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 30px;
+  background: linear-gradient(135deg, #1976D2 0%, #2196F3 50%, #42A5F5 100%);
+  border-bottom: 1px solid #ddd;
+  font-family: 'Nunito', sans-serif;
+  margin: -20px -20px 20px -20px; /* Default untuk desktop */
+}
+
+/* === FOOTER === */
+.math-footer {
+  text-align: center;
+  padding: 25px 30px;
+  margin: 30px -20px -20px -20px; /* Default untuk desktop */
+  background: linear-gradient(135deg, #1976D2 0%, #2196F3 50%, #42A5F5 100%);
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
 /* Responsive Styles */
 @media (max-width: 600px) {
+    .math-header {
+        margin: -15px -15px 15px -15px; /* Di mobile, margin diperkecil */
+        padding: 20px 15px; /* Padding juga disesuaikan */
+    }
+      
+    .math-footer {
+        margin: 25px -15px -15px -15px; /* Di mobile, margin diperkecil */
+        padding: 20px 15px;
+    }
     .math-body {
         padding: 15px !important;
     }
